@@ -8,3 +8,5 @@
 5. Lorsque l'un des deux joueurs n'a plus de cartes, la partie est terminée, celui qui a toutes les cartes est vainqueur.
 
 ### Ne pas hésiter à relancer s'il n'y a pas de vainqueur, en fonction du mélange des paquets, une partie peut être très longue.
+
+> Vincent RODRIGUEZ
