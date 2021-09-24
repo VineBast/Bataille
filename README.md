@@ -1,5 +1,5 @@
 # Bataille
-Jeu de la bataille avec les règles originales (joue automatique) :
+## Jeu de la bataille avec les règles originales (joue automatique) :
 
 1. 52 cartes avec les 4 couleurs : Trèfle, Carreau, Coeur et Pique.
 2. En cas d'égalité on entre en **Bataille :** on ajoute une carte cachée, puis on prend en compte celle d'après pour savoir qui est le gagnant. Le gagnant prend toutes les cartes.
