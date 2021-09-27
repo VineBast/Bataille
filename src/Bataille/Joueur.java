@@ -13,7 +13,7 @@ public class Joueur {
 		initPaquet(paquetEntier, numero);
 	}
 	
-	//Met en place un paquet de 26 cartes (sous forme d'ArrayList) déjà mélangé
+	//Met en place un paquet de 26 cartes (sous forme d'ArrayList) déjà mélangé en tant qu'objet Paquet
 	public void initPaquet(Paquet paquetEntier, int numero) {
 		paquet = new ArrayList<Carte>();		
 		if (numero == 1) {
