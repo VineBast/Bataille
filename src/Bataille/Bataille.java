@@ -1,7 +1,6 @@
 package Bataille;
 
 public class Bataille {
-	boolean stop;
 	int position;
 	int tour;
 	int carteJ1;
@@ -15,13 +14,11 @@ public class Bataille {
 	public void partie() {
 		Paquet p = new Paquet();
 		Joueur j1 = new Joueur("Héphaistos", 1, p);
-		Joueur j2 = new Joueur("Arès", 2, p);
-		
-		stop = false;
+		Joueur j2 = new Joueur("Arès", 2, p);		
 		position = 0;
 		tour = 1;
 		
-		while(stop == false) {
+		while(true) {
 			carteJ1 = j1.tireCarte(position).getValeur();
 			carteJ2 = j2.tireCarte(position).getValeur();
 			
